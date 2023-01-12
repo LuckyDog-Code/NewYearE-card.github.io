@@ -53,17 +53,19 @@ body{
   text-transform: uppercase;
   font-weight: 800;
   letter-spacing: 2px;
+  position: relative;
 }
 
 .img-slider .slide .info p{
   color: #ffe392;
   background: rgba(0, 0, 0, 0.1);
-  font-size: 13px;
+  font-size: 15px;
   width: 90%;
   line-height: 5mm;
   letter-spacing: 0.3mm;
   padding: 10px;
   border-radius: 4px;
+  position: relative;
 }
 
 .img-slider .navigation{
