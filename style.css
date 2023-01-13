@@ -64,3 +64,73 @@ p {
     margin: 8%;
     color: #e6c45f;
 }
+
+/* generate phrases */
+
+table {
+	padding-top: 80px;
+	margin: auto;
+	width: 30%;
+}
+
+.pinyin {
+	/* height: 20px; */
+	font-size: 20%;
+	letter-spacing: 3px;
+	font-weight: 400;
+    text-align: center;
+    color: #e6c45f;
+}
+
+td {
+	font-size: 118%;
+	text-align: center;
+	font-weight: 700;
+	padding: 0px;
+    color: #e6c45f;
+}
+
+h2 {
+	margin-top: 15px;
+	margin-bottom: 100px;
+    text-align: center;
+	font-size:45%;
+	text-transform: uppercase;
+	font-weight: 700;
+	word-spacing: 5px;
+    color: #e6c45f;
+}
+
+/* .para {
+	font-weight: 700;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+} */
+
+button {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+	background-color: #ef941a;
+	color: rgb(97, 5, 5);
+	width: 37%;
+	position: relative;
+	border-radius: 8px;
+	margin: 20%;
+    margin-left: 30%;
+	padding: 1%;
+	line-height: 150%;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	font-size: 10%;
+	text-transform: uppercase;
+	letter-spacing: 1%;
+}
+
+button:hover, button:focus {
+	background-color: #efa134;
+}
+
+button:active {
+	transform: translate(0px, 2px);
+	-webkit-transform: translate(0px, 2px);
+  }
